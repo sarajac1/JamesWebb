@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand&family=Space+Mono&display=swap');
+
+header {  
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;  
+}
+
+header>img {
+  display: flex;  
+  max-width: 97vw; 
+}
+
+.headerbar {
+  display: flex;
+  background-color: #DF9EEE;
+  justify-content: space-evenly; 
+  color: white;
+}
+
+body {
+  font-family: 'Space Mono', monospace, sans-serif; 
+  background-color: #e6e6fa; 
+}
+
+#about{
+  padding: 1vw; 
+  display: flex; 
+  flex-direction: column;
+  margin: 2vw;
+}
+
+.telescopes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.telescopes>img {
+  max-width: 45vw; 
+}
+
+
+#goals {
+  padding: 1vw;
+  margin: 1vw; 
+}
+
+.separation{
+  display: flex;
+  justify-content: center;
+  margin-top: 1vw;
+}
+
+.separation>img{
+  display: flex; 
+  max-width: 45vw;
+  padding: 1vw;
+  margin-right:1.5vw;
+}
+
+.margin{
+  margin: 3vw;
+}
+
+.centre{
+  display: flex;
+  justify-content: center;
+}
+
+.pictures {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  
+}
+
+.pictures>img{
+  display: flex;
+  max-width: 45vw;
+  padding: 1vw;
+}
+
+footer {
+  background-color: #DF9EEE;
+  color: white; 
+  display: flex;  
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 800px) {
+
+  .pictures {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .pictures>img{
+    max-width: 100vw;
+  }
+
+.separation{
+  display:flex;
+  flex-direction: column;
+}
+
+.separation>img{
+  max-width:100vw;
+}
+
+}
